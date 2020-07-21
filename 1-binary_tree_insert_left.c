@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_node - generates new left node
+ * binary_tree_insert_left - generates new left node
  * @parent: parent node
  * @value: noew node value
  * Return: new left nnode
@@ -23,7 +23,8 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 		parent->left = node;
 		return (node);
 	}
-	else{
+	else
+	{
 		parent->left = node;
 		return (node);
 	}
