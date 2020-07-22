@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_postorder - runs the tree on inorder
+ * binary_tree_inorder - runs the tree on inorder
  * @tree: tree
  * @func: prints the value
  * Return: nada
