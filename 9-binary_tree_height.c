@@ -3,7 +3,7 @@
 /**
  * binary_tree_height - counts the heigh of a node
  * @tree: tree
- * Return: nada
+ * Return: heihg of the node
  */
 size_t binary_tree_height(const binary_tree_t *tree)
 {
